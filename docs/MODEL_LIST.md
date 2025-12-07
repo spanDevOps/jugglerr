@@ -1,7 +1,7 @@
 # Complete Model List
 
-**Date:** Friday, December 5, 2025  
-**Total Models:** 88
+**Date:** Sunday, December 7, 2025  
+**Total Models:** 115
 
 ---
 
@@ -9,12 +9,13 @@
 
 | Provider | Models | Free Tier | Streaming |
 |----------|--------|-----------|-----------|
-| Cerebras | 6 | ✅ Yes | ✅ Yes |
-| Groq | 8 | ✅ Yes | ✅ Yes |
-| Mistral | 13 | Trial | ✅ Yes |
-| Cohere | 5 | ✅ Yes | ✅ Yes |
 | NVIDIA | 56 | ✅ Yes | ✅ Yes |
-| **Total** | **88** | - | **88/88** |
+| Mistral | 19 | Trial | ✅ Yes |
+| Groq | 18 | ✅ Yes | ✅ Yes |
+| Cohere | 10 | ✅ Yes | ✅ Yes |
+| Cerebras | 6 | ✅ Yes | ✅ Yes |
+| nvidia-embed | 6 | ✅ Yes | N/A |
+| **Total** | **115** | - | **109/109** |
 
 ---
 
@@ -49,127 +50,80 @@ All models support streaming ✅
 
 ---
 
-## Groq (8 models) - FREE TIER ✅
+## Groq (18 models) - FREE TIER ✅
 
 All models support streaming ✅
 
+### Super Models
 1. **moonshotai/kimi-k2-instruct-0905** [super] [128K context]
-   - Excellent reasoning
-   - Large context window
-
 2. **openai/gpt-oss-120b** [super] [128K context]
-   - Open-source GPT
-   - Strong capabilities
-
 3. **llama-3.3-70b-versatile** [super] [128K context]
-   - Meta's versatile model
-   - Great all-rounder
+4. **llama-3.3-70b-specdec** [super] [8K context]
+5. **llama-3.1-70b-versatile** [super] [128K context]
+6. **llama-3.1-70b-specdec** [super] [8K context]
 
-4. **meta-llama/llama-4-maverick-17b-128e-instruct** [regular] [131K context]
-   - Vision support
-   - 128 experts MoE
-
-5. **meta-llama/llama-4-scout-17b-16e-instruct** [regular] [131K context]
-   - Vision support
-   - 16 experts MoE
-
-6. **qwen/qwen3-32b** [regular] [128K context]
-   - Fast and efficient
-   - Multilingual
-
-7. **openai/gpt-oss-20b** [regular] [128K context]
-   - Smaller GPT-OSS
-   - Good balance
-
-8. **llama-3.1-8b-instant** [regular] [128K context]
-   - Fastest on Groq
-   - Instant responses
+### Regular Models
+7. **meta-llama/llama-4-maverick-17b-128e-instruct** [regular] [131K context] - Vision
+8. **meta-llama/llama-4-scout-17b-16e-instruct** [regular] [131K context] - Vision
+9. **qwen/qwen3-32b** [regular] [128K context]
+10. **openai/gpt-oss-20b** [regular] [128K context]
+11. **llama-3.1-8b-instant** [regular] [128K context]
+12. **llama3-groq-70b-8192-tool-use-preview** [regular] [8K context]
+13. **llama3-groq-8b-8192-tool-use-preview** [regular] [8K context]
+14. **llama-3.2-1b-preview** [regular] [8K context]
+15. **llama-3.2-3b-preview** [regular] [8K context]
+16. **llama-3.2-11b-vision-preview** [regular] [8K context] - Vision
+17. **llama-3.2-90b-vision-preview** [regular] [8K context] - Vision
+18. **gemma2-9b-it** [regular] [8K context]
 
 ---
 
-## Mistral (13 models) - TRIAL CREDITS
+## Mistral (19 models) - TRIAL CREDITS
 
 All models support streaming ✅
 
 ### Large Models (Super)
 1. **mistral-large-2411** [super] [128K context]
-   - Flagship model
-   - Best quality
-
 2. **mistral-medium-2508** [super] [128K context]
-   - Balanced performance
-   - Good value
-
 3. **magistral-medium-2507** [super] [128K context]
-   - Reasoning specialist
-   - Optimal <40K tokens
-
-4. **pixtral-large-2411** [super] [128K context]
-   - Vision support
-   - Large multimodal
-
+4. **pixtral-large-2411** [super] [128K context] - Vision
 5. **devstral-medium-2507** [super] [medium context]
-   - Code specialist
-   - Development focused
 
 ### Regular Models
 6. **codestral-2501** [regular] [256K context]
-   - Code generation
-   - Huge context
-
 7. **magistral-small-2507** [regular] [128K context]
-   - Reasoning
-   - Smaller version
-
 8. **mistral-small-2409** [regular] [128K context]
-   - General purpose
-   - Cost-effective
-
-9. **pixtral-12b-2409** [regular] [128K context]
-   - Vision support
-   - Compact multimodal
-
+9. **pixtral-12b-2409** [regular] [128K context] - Vision
 10. **devstral-small-2505** [regular] [medium context]
-    - Code specialist
-    - Smaller version
-
 11. **open-mistral-nemo** [regular] [128K context]
-    - Open-source
-    - 12B parameters
-
 12. **ministral-8b-2410** [regular] [128K context]
-    - Edge deployment
-    - Very fast
-
 13. **ministral-3b-2410** [regular] [128K context]
-    - Edge deployment
-    - Ultra-fast
+14. **mistral-embed** [regular] - Embeddings
+15. **codestral-embed** [regular] - Code Embeddings
+16. **mistral-ocr-latest** [regular] - OCR
+17. **mistral-moderation-latest** [regular] - Moderation
+18. **pixtral-ocr-2412** [regular] - OCR
+19. **mistral-moderation-2412** [regular] - Moderation
 
 ---
 
-## Cohere (5 models) - FREE TIER ✅
+## Cohere (10 models) - FREE TIER ✅
 
-All models support streaming ✅
+All chat models support streaming ✅
 
+### Chat Models
 1. **command-r-plus-08-2024** [super] [128K context]
-   - Latest flagship
-   - Best quality
-
 2. **command-r-plus** [super] [128K context]
-   - Flagship model
-   - RAG optimized
-
 3. **command-r-08-2024** [regular] [128K context]
-   - Latest regular
-   - Good balance
-
 4. **command-r** [regular] [128K context]
-   - RAG optimized
-   - Cost-effective
-
 5. **command** [regular] [4K context]
-   - Basic model
-   - Simple tasks
+
+### Specialized Models
+6. **embed-english-v3.0** - Embeddings
+7. **embed-multilingual-v3.0** - Multilingual Embeddings
+8. **embed-v4.0** - Latest Embeddings
+9. **rerank-v3.5** - Reranking
+10. **rerank-english-v3.0** - English Reranking
 
 ---
 
@@ -291,13 +245,18 @@ All models support streaming ✅
 ## Streaming Support
 
 ### Fully Supported ✅
-- **Cerebras:** All 6 models
-- **Groq:** All 8 models
-- **Mistral:** All 13 models
-- **Cohere:** All 5 models (custom JSON lines format)
-- **NVIDIA:** All 56 models
+- **Cerebras:** All 6 chat models
+- **Groq:** All 18 chat models
+- **Mistral:** 13 chat models (custom JSON lines format)
+- **Cohere:** 5 chat models (custom JSON lines format)
+- **NVIDIA:** All 56 chat models
 
-**Total Streaming:** 88/88 models (100%)
+**Total Streaming:** 109/109 chat models (100%)
+
+### No Streaming (Specialized Models)
+- Embedding models (6 nvidia-embed models)
+- Mistral specialized models (6 models)
+- Cohere specialized models (5 models)
 
 ---
 
@@ -322,19 +281,25 @@ All models support streaming ✅
 
 ### Super (70B+)
 - **Cerebras:** 4 models
-- **Groq:** 3 models
+- **Groq:** 6 models
 - **Mistral:** 5 models
 - **Cohere:** 2 models
 - **NVIDIA:** 8 models
-- **Total:** 22 super models
+- **Total:** 25 super models
 
 ### Regular (7B-32B)
 - **Cerebras:** 2 models
-- **Groq:** 5 models
+- **Groq:** 12 models
 - **Mistral:** 8 models
 - **Cohere:** 3 models
 - **NVIDIA:** 48 models
-- **Total:** 66 regular models
+- **Total:** 73 regular models
+
+### Specialized
+- **Mistral:** 6 models (embeddings, OCR, moderation)
+- **Cohere:** 5 models (embeddings, reranking)
+- **nvidia-embed:** 6 models (embeddings)
+- **Total:** 17 specialized models
 
 ---
 
@@ -375,8 +340,20 @@ for chunk in Jugglerr.juggle_stream(
     print(chunk, end='', flush=True)
 ```
 
+## nvidia-embed (6 models) - FREE TIER ✅
+
+Embedding models (no streaming)
+
+1. **nvidia/nv-embed-v1** [4096 dims]
+2. **nvidia/nv-embed-v2** [4096 dims]
+3. **nvidia/nv-embedqa-e5-v5** [1024 dims]
+4. **nvidia/nv-embedqa-mistral-7b-v2** [4096 dims]
+5. **baai/bge-m3** [1024 dims] - Multilingual
+6. **snowflake/arctic-embed-l** [1024 dims]
+
 ---
 
-**Last Updated:** December 5, 2025  
-**Total Models:** 88  
-**Streaming Support:** 88/88 (100%)
+**Last Updated:** December 7, 2025  
+**Total Models:** 115  
+**Chat Models with Streaming:** 109/109 (100%)  
+**Specialized Models:** 6 (embeddings, reranking, OCR, moderation)
