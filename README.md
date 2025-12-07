@@ -416,7 +416,7 @@ See the `examples/` directory for complete examples:
 
 ## Documentation
 
-📚 **[Complete Documentation](docs/)** - All guides, references, and implementation details
+📚 **[Complete Documentation](https://github.com/spanDevOps/juggler/tree/main/docs)** - All guides, references, and implementation details
 
 **Quick Links:**
 - 📖 [User Guide](https://github.com/spanDevOps/juggler/blob/main/docs/USER_GUIDE.md) - Complete usage guide
@@ -426,17 +426,17 @@ See the `examples/` directory for complete examples:
 
 ## Contributing
 
-Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+Contributions welcome! Please read [CONTRIBUTING.md](https://github.com/spanDevOps/juggler/blob/main/CONTRIBUTING.md) first.
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](https://github.com/spanDevOps/juggler/blob/main/LICENSE) file for details.
 
 ## Support & Sponsorship
 
 ### Get Help
 
-- 📖 [Documentation](docs/)
+- 📖 [Documentation](https://github.com/spanDevOps/juggler/tree/main/docs)
 - 🐛 [Issue Tracker](https://github.com/spanDevOps/juggler/issues)
 - 💬 [Discussions](https://github.com/spanDevOps/juggler/discussions)
 
